@@ -1,0 +1,26 @@
+baseurl = "https://hammes.io"
+title = "AdamHammes.io"
+languageCode = "en-us"
+
+theme = "black-and-light"
+
+[params]
+  sitename = "AdamHammes.io"
+  dateform = "January 2, 2006"
+
+[[menu.main]]
+	name = "Recipes"
+	url = "/recipes"
+
+[[menu.main]]
+	name = "About"
+	url = "/about"
+
+[[menu.main]]
+	name = "Tools"
+	url = "/tools"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
